@@ -1,0 +1,25 @@
+La relation entre le nombre d'époques et les mesures d'évaluation telles que les scores BLEU peut être complexe, et il n'est pas toujours évident qu'un nombre plus élevé d'époques aboutisse à de meilleurs scores. Plusieurs facteurs peuvent influencer les performances du modèle, et parvenir à une conclusion basée uniquement sur le nombre d’époques peut être trompeur. Voici quelques considérations :
+
+Surapprentissage :
+
+L'augmentation du nombre d'époques peut conduire à un surajustement, dans lequel le modèle devient trop spécialisé par rapport aux données d'entraînement et fonctionne mal sur de nouvelles données invisibles. Cela pourrait entraîner une diminution des performances sur les métriques d’évaluation.
+Convergence des modèles :
+
+La convergence des modèles peut se produire avant d’atteindre le nombre maximum d’époques. Parfois, le modèle peut atteindre des performances optimales ou quasi optimales avant d’avoir terminé le nombre d’époques spécifié.
+Réglage des hyperparamètres :
+
+L'efficacité de la formation dépend de divers hyperparamètres (taux d'apprentissage, taille des lots, etc.). Il est possible que l’ajustement de ces hyperparamètres conduise à une amélioration des performances.
+Qualité des données de formation :
+
+La qualité et la diversité des données de formation jouent également un rôle crucial. Plus de données ne garantissent pas toujours de meilleures performances si les données ne sont pas diverses ou représentatives de l'ensemble de test.
+Initialisation aléatoire :
+
+Si votre modèle implique une initialisation aléatoire, différentes exécutions d'entraînement avec le même nombre d'époques peuvent donner des résultats différents.
+Architecture du modèle :
+
+L'architecture du réseau neuronal lui-même, y compris le choix des couches, des unités et d'autres décisions architecturales, peut avoir un impact significatif sur les performances.
+Compte tenu de ces facteurs, il n'est pas nécessairement « bizarre » que le modèle formé avec 150 époques ait un score BLEU inférieur à celui formé avec 80 époques. Cela pourrait indiquer que le modèle ne bénéficie pas d’une formation complémentaire ou qu’il souffre d’un surapprentissage.
+
+Pour approfondir vos recherches, vous souhaiterez peut-être effectuer une analyse plus approfondie, notamment en examinant les courbes de formation et de validation, en essayant différentes configurations d'hyperparamètres et en inspectant qualitativement les légendes générées par le modèle pour voir si elles correspondent aux attentes.
+
+En apprentissage automatique, la relation entre la durée de l'entraînement et les performances n'est pas toujours linéaire, et il est courant d'expérimenter différentes configurations pour trouver le modèle optimal.

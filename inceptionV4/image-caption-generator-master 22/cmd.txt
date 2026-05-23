@@ -1,0 +1,10 @@
+C:/Users/M538813/Desktop/me/Dataset/captions_val2014.json
+python main.py --mode eval --validation_data [CHEMIN_VERS_LE_FICHIER_DE_VALIDATION]
+
+
+
+python main.py --mode eval --image_path C:/Users/LENOVO/Desktop/Dataset/COCO-images/images/val2014 --inception_path ConvNets/inception_v4.pb
+
+
+
+python main.py --mode eval --validation_data Dataset/features.npy --inception_path ConvNets/inception_v4.pb

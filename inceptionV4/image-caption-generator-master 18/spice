@@ -1,0 +1,15 @@
+It appears that you have successfully identified common tokens between the reference and generated captions, and you are now obtaining non-zero precision and recall values. The common tokens in your example are '.' and 'a'. The precision and recall values are approximately 0.111 and 0.011, respectively.
+
+The SPICE score is calculated based on precision and recall, and the formula is:
+
+SPICE=2×precision×recall/precision+recall
+
+
+
+In your case, the mean SPICE score is approximately
+0.0194
+0.0194, which indicates some level of semantic overlap between the generated captions and the reference captions.
+
+It's important to note that SPICE is a metric that considers the semantic content of the captions, and achieving a higher SPICE score may involve capturing more complex relationships between words and their meanings.
+
+If you have further questions or if there's anything specific you'd like to discuss or improve in your code or evaluation process, feel free to provide additional details!

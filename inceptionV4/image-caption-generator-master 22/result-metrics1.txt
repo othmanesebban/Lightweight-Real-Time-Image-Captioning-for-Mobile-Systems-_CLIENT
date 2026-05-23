@@ -1,0 +1,4 @@
+Corpus-Level BLEU-1 score: 0.1764528175686974
+Corpus-Level BLEU-2 score: 0.06146115893644234
+Corpus-Level BLEU-3 score: 0.03859693753766052
+Corpus-Level BLEU-4 score: 0.012080013022306239
