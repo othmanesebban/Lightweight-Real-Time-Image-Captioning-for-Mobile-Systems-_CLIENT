@@ -16,7 +16,7 @@ The optimized configuration reduces the maximum caption length from 22 to 18 tok
 
 ## Requirements
 
-- Python 3.6
+- Python 3.6 or 3.10
 - TensorFlow 1.13.1
 - Keras 2.2.4
 - Joblib 1.0.1
