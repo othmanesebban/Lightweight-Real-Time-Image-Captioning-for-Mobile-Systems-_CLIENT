@@ -17,13 +17,13 @@ The optimized configuration reduces the maximum caption length from 22 to 18 tok
 ## Requirements
 
 - Python 3.6 or 3.10
-- TensorFlow 1.13.1
-- Keras 2.2.4
-- Joblib 1.0.1
-- Matplotlib 3.3.4
-- OpenCV 4.5.1
-- Pandas 1.1.5
-- NLTK 3.5
+- TensorFlow 
+- Keras 
+- Joblib 
+- Matplotlib 
+- OpenCV 
+- Pandas 
+- NLTK 
 - MSCOCO 2017 images and captions
 
 ## Dataset
